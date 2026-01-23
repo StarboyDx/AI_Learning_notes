@@ -8,3 +8,6 @@ This repository records my learning process in data analysis, machine learning a
 
 ## Notes
 This repo is updated incrementally as I progress through different topics.
+
+- **H**: Files marked with "H" at the end were difficult to complete at the time, and need to be reviewed to further understand and improve.
+- **HS**: Files marked with "HS" mean the corresponding problems have been basically resolved.
