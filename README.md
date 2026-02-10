@@ -7,7 +7,17 @@ This mainly records engineering codes. The concepts and calculation principles o
 ## Structure
 - notebooks/: Jupyter notebooks for Python data analysis basics and ML basics. It also features documentation of key concepts and my own thinking processes on occasion.
 - projects/: practice projects from courses and self-learning.
-- Note: If the content of a certain chapter in the notes folder is related to the project files, it will be recorded in the README file under that chapter's folder.
+
+
+## Main environment
+- Anaconda 24.11.3
+- Python 3.10.19
+- numpy 2.2.5
+- pandas 2.3.3
+- matplotlib 3.10.8
+- seaborn 0.13.2
+Unless otherwise specified in the README, this project mainly uses the above environment. For details, please refer to requirements.txt.
+Tip: As long as your Python version is 3.10.19, in theory, if you use Anaconda Navigator to search for and install the packages used in the project, I think you should be able to directly run most of the content in the project.
 
 ## Notes
 This repo is updated incrementally as I progress through different topics.
@@ -18,3 +28,5 @@ This repo is updated incrementally as I progress through different topics.
 
 ## Explanation
 In this record, what I want to express simply and intuitively is generally in Chinese, which has a higher information density. However, for learning purposes, I will try to use some English nouns and phrases for annotation as much as possible.
+
+If the content of a certain chapter in the notes folder is related to the project files, it will be recorded in the README file under that chapter's folder.

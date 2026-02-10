@@ -1,0 +1,2 @@
+# Notes
+- This project implements the core algorithms for naive Bayes spam filtering, as well as core functions for file reading, keyword extraction, and counting word frequencies in the training set. It can be tested with larger datasets, and the effect may be more obvious.
