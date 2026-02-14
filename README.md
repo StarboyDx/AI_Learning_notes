@@ -26,7 +26,14 @@ This repo is updated incrementally as I progress through different topics.
 - **HS**: Files marked with "HS" mean the corresponding problems have been basically resolved.
 - **HH**：Extremely complex and difficult
 
+
 ## Explanation
 In this record, what I want to express simply and intuitively is generally in Chinese, which has a higher information density. However, for learning purposes, I will try to use some English nouns and phrases for annotation as much as possible.
 
 If the content of a certain chapter in the notes folder is related to the project files, it will be recorded in the README file under that chapter's folder.
+
+
+## Learning sequence
+My relevant foundations before learning this content: basic data structures and algorithms, UE C++ development, and basic Python syntax.
+Basic knowledge: Fundamentals of data analysis (Pandas, Numpy, Matplotlib) → Machine learning (classic algorithms of supervised and unsupervised learning, deep learning neural networks) → Deep learning frameworks (PyTorch, TensorFlow & Keras) → Large model development (LangChain, Web， Big data technology)
+Project-oriented: Applications of deep learning in the fields of CV and NLP → Popular AI projects → AI large model application development
