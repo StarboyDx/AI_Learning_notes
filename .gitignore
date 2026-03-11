@@ -4,6 +4,7 @@
 # Python
 __pycache__/
 *.pyc
+EnvTest/
 
 # OS
 .DS_Store
@@ -18,3 +19,10 @@ Thumbs.db
 # Data
 *.tmp
 vizualizations/
+dog_vs_cat/
+Dataset/
+test_images/
+
+# weights
+model/
+model_storage/
