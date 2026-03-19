@@ -22,10 +22,13 @@ vizualizations/
 dog_vs_cat/
 Dataset/
 test_images/
+SAVE.md
 
 # weights
-vgg16_initial_20.pkl
-vgg16.pkl
-translate-best.th
-translate-best2.th
+*.pkl
+*.th
 model_storage/
+
+# configs
+*.bat
+.devcontainer/

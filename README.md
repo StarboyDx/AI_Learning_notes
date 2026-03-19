@@ -1,40 +1,47 @@
 # AI Learning Notes
 
-This repository records my learning process in data analysis, machine learning and AI development.
+This repository documents my learning journey and practical explorations in Data Analysis, Machine Learning, and AI Development.
 
-This mainly records engineering codes. The concepts and calculation principles of related algorithms are recorded separately, so they will not be explained in detail here. Instead, efforts are made to clearly connect the relationship between principles and engineering implementations for the convenience of reading.
+The primary focus here is on **engineering implementations** rather than theoretical derivations. Algorithm concepts and mathematical principles are documented separately. The goal is to clearly bridge the gap between abstract principles and executable code, making it highly readable and highly practical.
 
-## Structure
-- notebooks/: Jupyter notebooks for Python data analysis basics and ML basics. It also features documentation of key concepts and my own thinking processes on occasion.
-- projects/: practice projects from courses and self-learning.
+## 📂 Repository Structure
+- `notebooks/`: Jupyter notebooks covering data analysis and ML basics. This directory also contains documentation of key concepts and my personal problem-solving processes.
+- `projects/`: Hands-on practice projects derived from structured courses and self-directed learning.
 
+## 🛠 Environments
 
-## Environment
-Leaning environment：
-- Anaconda 24.11.3
-- Python 3.10.19
-- numpy 2.2.5
-- pandas 2.3.3
-- matplotlib 3.10.8
-- seaborn 0.13.2
-- pytorch 2.10 cuda 12.6
-Note：Using conda and pip commands to install the above packages in a learning environment is not the most compatible combination. When I started learning PyTorch, I encountered compatibility issues. Therefore, the practice projects after that mainly used the following project-specific environment (notes might still use the learning environment to try to solve these compatibility issues).
+### 1. Local Host Environment (Base ML & PyTorch)
+- **Anaconda**: 24.11.3
+- **Python**: 3.10.19
+- **Core Libraries**: `numpy` 2.2.5, `pandas` 2.3.3, `matplotlib` 3.10.8, `seaborn` 0.13.2
+- **Deep Learning**: `pytorch` 2.10 (CUDA 12.6)
 
-## Notes
-This repo is updated incrementally as I progress through different topics.
+> **Compatibility Note**: 
+> The packages above represent the primary local learning environment. Mixing `conda` and `pip` installations occasionally introduces compatibility hurdles. For instance, I deliberately retain this setup to practice debugging runtime issues, such as resolving PyTorch OMP conflicts using `os.environ['KMP_DUPLICATE_LIB_OK'] = 'True'`. For more complex or production-level projects, I switch to strict, isolated container environments.
 
-- **H**: Files marked with "H" at the end were difficult to complete at the time, and need to be reviewed to further understand and improve.
-- **HS**: Files marked with "HS" mean the corresponding problems have been basically resolved.
-- **HH**：Extremely complex and difficult
+### 2. Containerized Environment (TensorFlow)
+- **Engine**: Docker (WSL2 Backend) + VS Code Dev Containers
+- **Image**: `tensorflow/tensorflow:2.15.0-gpu-jupyter` (Hardware Passthrough Enabled)
 
+## 📌 File Status Tags
+This repository is updated incrementally. Files are tagged with the following suffixes to track my mastery level:
+- **_H**: Hurdles encountered. Difficult to complete at the time; requires future review and optimization.
+- **_HS**: Hurdles solved. The core problems within have been basically resolved.
+- **_HH**: Highly complex and challenging.
 
-## Explanation
-In this record, what I want to express simply and intuitively is generally in Chinese, which has a higher information density. However, for learning purposes, I will try to use some English nouns and phrases for annotation as much as possible.
+## 📝 Language Policy
+To maximize information density and convey intuition simply, complex concepts and personal reflections are generally written in **Chinese**. However, to align with industry standards, **English** is heavily used for code annotations, variables, and technical nouns.
 
-If the content of a certain chapter in the notes folder is related to the project files, it will be recorded in the README file under that chapter's folder.
+*Note: If a specific chapter in the `notebooks` folder is directly related to a project in the `projects` folder, cross-references will be detailed in the local `README.md` within that chapter's directory.*
 
+## 🗺️ Learning Roadmap
 
-## Learning sequence
-My relevant foundations before learning this content: basic data structures and algorithms, UE C++ development, and basic Python syntax.
-Basic knowledge: Fundamentals of data analysis (Pandas, Numpy, Matplotlib) → Machine learning (classic algorithms of supervised and unsupervised learning, deep learning neural networks) → Deep learning frameworks (PyTorch, TensorFlow & Keras) → Large model development (LangChain, Web， Big data technology)
-Project-oriented: Applications of deep learning in the fields of CV and NLP → Popular AI projects → AI large model application development
+**Prerequisites**: Data Structures & Algorithms, UE C++ Development, Basic Python Syntax.
+
+1. **Data Science Basics**: Pandas, Numpy, Matplotlib
+2. **Machine Learning**: Supervised/Unsupervised Learning Algorithms, Classic Neural Networks
+3. **Deep Learning Frameworks**: PyTorch, TensorFlow & Keras
+4. **Project-Oriented Applications**: 
+   - CV (Computer Vision) & NLP (Natural Language Processing)
+   - Popular AI Open-Source Projects
+5. **LLM Development**: LangChain, Web Integration, Big Data Technologies

@@ -11,6 +11,7 @@ import torch
 from model import Encoder,AttnDecoder,Seq2Seq
 from train_eval import train,evaluate,epoch_time,test,translate
 
+# 修改运行参数
 parse = argparse.ArgumentParser()
 parse.add_argument("--data_dir", default = 'data/', type = str, required = False,
                    help = "The input data dir. Should contain the .tsv files (or other data files) for the task.")
