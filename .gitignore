@@ -24,5 +24,8 @@ Dataset/
 test_images/
 
 # weights
-model/
+vgg16_initial_20.pkl
+vgg16.pkl
+translate-best.th
+translate-best2.th
 model_storage/

@@ -1,6 +1,6 @@
 import torch
 
-class BasicConfig():
+class BasicConfigs():
     #数据存放参数
     neg = 'Dataset/neg' #负样本目录
     pos = 'Dataset/pos' #正样本目录
