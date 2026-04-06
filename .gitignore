@@ -32,3 +32,6 @@ model_storage/
 # configs
 *.bat
 .devcontainer/
+
+# logs
+log/
