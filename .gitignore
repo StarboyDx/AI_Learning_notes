@@ -23,11 +23,17 @@ dog_vs_cat/
 Dataset/
 test_images/
 SAVE.md
+anchors/
+classes/
+docs/
+result_demo.jpg
 
 # weights
 *.pkl
 *.th
 model_storage/
+checkpoints/
+widerface/
 
 # configs
 *.bat
