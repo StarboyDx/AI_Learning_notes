@@ -1,3 +1,4 @@
 # Notes
 Datasets (under Dataset/ or similar directories) and model weights (including checkpoints/, model_storage/, .pth, .pt, .ckpt files, etc.) are not included in this repository and have been ignored via .gitignore.
 Most data used in this project is publicly available online. Please refer to the code structure and comments to download and organize datasets and pre-trained weights on your own.
+The PytorchProjects directory does not encompass all projects implemented with PyTorch. The separation into PytorchProjects and TensorFlowProjects directories is primarily intended to facilitate Docker-based workflows, where each directory serves as a dedicated workspace within its respective container environment.

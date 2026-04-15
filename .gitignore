@@ -29,6 +29,7 @@ anchors/
 classes/
 docs/
 result_demo.jpg
+mask/
 
 # weights
 *.pkl
@@ -37,6 +38,7 @@ model_storage/
 checkpoints/
 widerface/
 model_data/
+best_model.pth
 
 # configs
 *.bat
@@ -48,3 +50,13 @@ logs/
 
 # Debugging
 MaskRCNN/
+Complaint-Classification/
+Medical-Ner/
+facenet-retinaface-pytorch/
+facenet-pytorch/
+ComplaintsClassification/
+ComplaintsClassification-Bert/
+Medical_QA/
+retinaface-pytorch/
+Weapon-Kg/
+MaskDetect/
