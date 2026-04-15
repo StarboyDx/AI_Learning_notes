@@ -21,6 +21,8 @@ Thumbs.db
 vizualizations/
 dog_vs_cat/
 Dataset/
+datasets/
+img/
 test_images/
 SAVE.md
 anchors/
@@ -34,6 +36,7 @@ result_demo.jpg
 model_storage/
 checkpoints/
 widerface/
+model_data/
 
 # configs
 *.bat
@@ -41,3 +44,7 @@ widerface/
 
 # logs
 log/
+logs/
+
+# Debugging
+MaskRCNN/
